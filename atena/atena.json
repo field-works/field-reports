@@ -1,0 +1,35 @@
+// atena.json
+{
+    "template": [
+        {"*": "./atena.pdf"}
+    ],
+
+    "context": [
+        {
+            "post1": "060",
+            "post2": "8588",
+            "address1": "北海道 札幌市中央区 北３条西６",
+            "address2": "",
+            "company": "北海道庁",
+            "title": "知事",
+            "name": "高橋はるみ"
+        },
+        {
+            "post1": "030",
+            "post2": "8570",
+            "address1": "青森県 青森市 長島１－１－１",
+            "address2": "",
+            "company": "青森県庁",
+            "title": "知事",
+            "name": "三村申吾"
+        }
+    ],
+
+    "style": [
+        {"*": {"font": "/KozGo-Medium", "translation": [0, 1]}},
+        {"*.post1": {"text-align": "Justify", "padding": [5, 0, 5, 0]}},
+        {"*.post2": {"text-align": "Justify", "padding": [5, 0, 5, 0]}},
+        {"*.name": {"replace": [".+", "\\0 様"]}},
+        {"*.sender": {"value": "〒163-8001\n東京都 新宿区 西新宿２－８－１\n東京都知事　石原慎太郎"}}
+    ]
+}

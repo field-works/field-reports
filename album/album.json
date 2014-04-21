@@ -1,0 +1,42 @@
+{
+    "resources": {
+        "image": {
+            "photo1": "./kid0043-009.jpg",
+            "photo2": "./kid0054-009.jpg",
+            "pin": "./pin.pdf"
+        }
+    },
+
+    "template": "./album.pdf",
+
+    "context": {
+        "title": {
+            "value": "2013.01.01\nあけましておめでとう\nございます",
+            "color": "Gray",
+            "line-height": 1.8
+        },
+        "photo1": {
+            "width": 348,
+            "height": 230,
+            "border-width": 12,
+            "border-color": [119, 200, 55],
+            "border-join-style": "BevelJoin",
+            "rotation": 12.69,
+            "image": "photo1"
+        },
+        "photo2": {
+            "width": 330,
+            "height": 225,
+            "border-width": 12,
+            "border-color": [255, 124, 128],
+            "border-join-style": "RoundJoin",
+            "rotation": -5.74,
+            "image": "photo2"
+        },
+        "pin": {
+            "new": "Btn",
+            "rect": [0, 0, 780, 540],
+            "image": "pin"
+        }
+    }
+}

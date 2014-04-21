@@ -1,0 +1,47 @@
+// hello3.json
+{
+    "template": {"paper": "A4"},
+    "context": {
+        "hello_1": {
+            "new": "Tx",
+            "value": "Hello, World!",
+            "rect": [100, 700, 400, 750],
+            "border-width": 3,
+            "border-style": "Dashed",
+            "border-dash": []
+        },
+        "hello_2": {
+            "new": "Tx",
+            "value": "Hello, World!",
+            "rect": [100, 600, 400, 650],
+            "border-width": 3,
+            "border-style": "Dashed",
+            "border-dash": [6]
+        },
+        "hello_3": {
+            "new": "Tx",
+            "value": "Hello, World!",
+            "rect": [100, 500, 400, 550],
+            "border-width": 3,
+            "border-style": "Dashed",
+            "border-dash": [9]
+        },
+        "hello_4": {
+            "new": "Tx",
+            "value": "Hello, World!",
+            "rect": [100, 400, 400, 450],
+            "border-width": 3,
+            "border-style": "Dashed",
+            "border-dash": [3, 9]
+        },
+        "hello_5": {
+            "new": "Tx",
+            "value": "Hello, World!",
+            "rect": [100, 300, 400, 350],
+            "border-width": 3,
+            "border-style": "Dashed",
+            "border-dash": [3, 3, 15, 3]
+        }
+    }
+}
+

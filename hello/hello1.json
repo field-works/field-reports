@@ -1,0 +1,12 @@
+// hello1.json
+{
+    "template": {"paper": "A4"},
+    "context": {
+        "hello": {
+            "new": "Tx",
+            "value": "Hello, World!",
+            "rect": [100, 700, 400, 750]
+        }
+    }
+}
+
