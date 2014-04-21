@@ -3,13 +3,14 @@ Field Reports サンプルコード
 
 Field Reports のサンプルコードです。
 
-## ファイルの内容
+ファイルの内容
+--------------
 
-### mitumori_1
-見積書（単票）
+:mitumori_1:
+    見積書（単票）
 
-### mitumori_2
-見積書（複合帳票）
+:mitumori_2:
+    見積書（複合帳票）
 
 :mitumori_3:
     見積書（連続帳票）
