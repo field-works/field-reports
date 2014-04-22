@@ -1,17 +1,17 @@
-Field Reports サンプルコード「宛名印刷」
-==============================================
+宛名印刷
+========
 
 はがきの宛名印刷を行うサンプルです。
 
 ファイルの内容
 --------------
-:atena.json:
+atena.json
     レンダリング・パラメータ（JSON形式）
 
-:atena.pdf:
+atena.pdf
     PDFテンプレート
 
-:out.pdf:
+out.pdf
     出力結果
 
 ポイント
@@ -31,5 +31,6 @@ Field Reports サンプルコード「宛名印刷」
 --------
 
 コマンドライン::
+
     $ reports create album.json out.pdf
 

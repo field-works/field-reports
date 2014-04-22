@@ -1,14 +1,14 @@
-Field Reports サンプルコード「IPAmj明朝」
-==============================================
+IPAmj明朝
+=========
 
 文字情報基盤整備事業の成果物であるIPAmj明朝フォントを活用したサンプルです。
 
 ファイルの内容
 --------------
-:ipamj.json:
+ipamj.json
     レンダリング・パラメータ（JSON形式）
 
-:out.pdf:
+out.pdf
     出力結果
 
 ポイント
@@ -30,5 +30,6 @@ IPAのサイトよりIPAmj明朝フォントをダウンロードして，カレ
     http://ossipedia.ipa.go.jp/ipamjfont/download.html
 
 コマンドライン::
+
     $ reports create ipamj.json out.pdf
 

@@ -1,41 +1,41 @@
-Field Reports サンプルコード「見積書（複合帳票）」
-==================================================
+見積書（複合帳票）
+==================
 
 見積書の表紙＋見積書本体の２枚構成の帳票のサンプルです。
 
 ファイルの内容
 --------------
-:hyousi.ods:
+hyousi.ods
     見積書表紙の元原稿（OpenOffice.org形式）
 
-:hyousi.pdf:
+hyousi.pdf
     見積書表紙のPDFテンプレート
 
-:mitumori.odt:
+mitumori.odt
     見積書の元原稿（OpenOffice.org形式）
 
-:mitumori.pdf:
+mitumori.pdf
     見積書のPDFテンプレート
 
-:stamp.png:
+stamp.png
     印影画像
 
-:mitumori.json:
+mitumori.json
     レンダリング・パラメータ（JSON形式）
 
-:mitumori.py:
+mitumori.py
     Pythonプログラム
 
-:mitumori.rb:
+mitumori.rb
     Rubyプログラム
 
-:mitumori.pl:
+mitumori.pl
     Perlプログラム
 
-:mitumori.php:
+mitumori.php
     PHPプログラム
 
-:out.pdf:
+out.pdf
     出力結果
 
 ポイント
@@ -57,17 +57,22 @@ Field Reports サンプルコード「見積書（複合帳票）」
 --------
 
 Python::
+
     $ python mitumori.py out.pdf
 
 Ruby::
+
     $ ruby mitumori.rb out.pdf
 
 Perl::
+
     $ perl mitumori.pl out.pdf
 
 PHP::
+
     $ php mitumori.php out.pdf
 
 コマンドライン::
+
     $ reports create mitumori.json out.pdf
 

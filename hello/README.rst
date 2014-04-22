@@ -1,18 +1,15 @@
-Field Reports サンプルコード「Hello World」
-==============================================
+Hello World
+===========
 
 PDFテンプレートを使用せず，スクラッチからPDFを作成する場合のサンプルです。
 
 ファイルの内容
 --------------
-:hello1.json:
-:hello2.json:
-:hello3.json:
+
+hello1.json, hello2.json, hello3.json
     レンダリング・パラメータ（JSON形式）
 
-:out1.pdf:
-:out2.pdf:
-:out3.pdf:
+out1.pdf, out2.pdf, out3.pdf
     出力結果
 
 ポイント
@@ -37,6 +34,7 @@ PDFテンプレートを使用せず，スクラッチからPDFを作成する�
 --------
 
 コマンドライン::
+
     $ reports create hello1.json out1.pdf
     $ reports create hello2.json out2.pdf
     $ reports create hello3.json out3.pdf
