@@ -7,7 +7,7 @@ Documents / ドキュメント
 ------------------------
 
 - ユーザーズ・マニュアル
-- `サンプルプログラム https://github.com/field-works/field-reports/tree/master/samples>`_
+- `サンプルプログラム <https://github.com/field-works/field-reports/tree/master/samples>`_
 - チュートリアル
 - レシピ
 - 使いこなしのコツ
