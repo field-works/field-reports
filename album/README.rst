@@ -5,20 +5,19 @@ Field Reports サンプルコード「フォトアルバム」
 
 ファイルの内容
 --------------
-:album.json:
+album.json
     レンダリング・パラメータ（JSON形式）
 
-:album.pdf:
+album.pdf
     PDFテンプレート
 
-:kid0043-009.jpg:
-:kid0054-009.jpg:
+kid0043-009.jpg, kid0054-009.jpg
     写真画像
 
-:pin.pdf:
+pin.pdf
     「虫ピン」画像
 
-:out.pdf:
+out.pdf
     出力結果
 
 ポイント
@@ -33,5 +32,6 @@ Field Reports サンプルコード「フォトアルバム」
 --------
 
 コマンドライン::
+
     $ reports create album.json out.pdf
 
