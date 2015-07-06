@@ -8,6 +8,7 @@ Field Reportsのサンプルコードならびに出力結果です。
 
 mitumori_1
     見積書（単票）
+
     .. image:: mitumori_1/out.pdf
 
 mitumori_2
