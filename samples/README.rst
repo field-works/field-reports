@@ -1,47 +1,41 @@
 Field Reports サンプルコード
 ============================
 
-Field Reports のサンプルコードです。
+Field Reportsのサンプルコードならびに出力結果です。
 
 ファイルの内容
 --------------
 
-:mitumori_1:
+mitumori_1
     見積書（単票）
+    .. image:: mitumori_1/out.pdf
 
-:mitumori_2:
+mitumori_2
     見積書（複合帳票）
 
-:mitumori_3:
+mitumori_3
     見積書（連続帳票）
 
-:mitumori_4:
+mitumori_4
     見積書（複合＋連続帳票）
 
-:hello:
+hello
     スクラッチからの帳票作成
 
-:album:
+album
     フォトアルバム
 
-:atena:
+atena
     ハガキの宛名印刷
 
-:ipamj:
+ipamj
     IPAmj明朝を利用した帳票
 
-:tate:
+tate
     縦組みテキストの使用例
 
 実行方法
 --------
 
-各ディレクトリの README の記述にしたがってください。
-
-サポートページ
---------------
-
-チュートリアル・レシピ・使いこなしのコツなどの情報は，弊社サポートページを参照してください。
-
-    http://www.field-works.co.jp/サポート/
+各ディレクトリのREADMEを参照してください。
 
