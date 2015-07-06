@@ -8,9 +8,6 @@ IPAmj明朝
 ipamj.json
     レンダリング・パラメータ（JSON形式）
 
-out.pdf
-    出力結果
-
 ポイント
 --------
 

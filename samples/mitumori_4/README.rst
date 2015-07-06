@@ -29,9 +29,6 @@ mitumori.pl
 mitumori.php
     PHPプログラム
 
-out.pdf
-    出力結果
-
 ポイント
 --------
 

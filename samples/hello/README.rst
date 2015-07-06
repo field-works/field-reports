@@ -9,9 +9,6 @@ PDFテンプレートを使用せず，スクラッチからPDFを作成する�
 hello1.json, hello2.json, hello3.json
     レンダリング・パラメータ（JSON形式）
 
-out1.pdf, out2.pdf, out3.pdf
-    出力結果
-
 ポイント
 --------
 

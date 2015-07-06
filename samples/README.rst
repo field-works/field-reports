@@ -9,8 +9,6 @@ Field Reportsのサンプルコードならびに出力結果です。
 mitumori_1
     見積書（単票）
 
-    .. image:: mitumori_1/out.pdf
-
 mitumori_2
     見積書（複合帳票）
 
@@ -39,4 +37,9 @@ tate
 --------
 
 各ディレクトリのREADMEを参照してください。
+
+出力結果
+--------
+
+outputsディレクトリを参照してください。
 
