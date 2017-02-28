@@ -19,7 +19,7 @@ LGPLについては同梱の「LGPL原文(license_lgpl.txt)」を参照してく
 本ソフトウェアの特徴・仕様・動作環境等につきましては，下記ページをご参照ください。
 
 製品情報
-    `http://www.field-works.co.jp/製品情報/`
+    http://www.field-works.co.jp/製品情報/
 
 利用方法
 --------
