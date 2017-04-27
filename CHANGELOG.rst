@@ -1,6 +1,15 @@
 更新履歴
 ========
 
+2017-05-05 1.5.4版
+--------------------
+.NET Core対応
+    * macOS, Linux, Windowsで.NET Coreに対応
+    * .NET BridgeをNuGet galleryに登録（パッケージ名: FieldWorks.FieldReports.Bridge）
+
+改善
+    * Type1フォントの埋め込み方法を改善した。
+
 2016-06-14 1.5.3版
 --------------------
 不具合修正（Windows版）

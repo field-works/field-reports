@@ -1,4 +1,4 @@
-Field Reports 1.5.3
+Field Reports 1.5.4
 ========================
 
 Field Reports（以降，本ソフトウェアと表記します）は，マルチプラットフォーム／
