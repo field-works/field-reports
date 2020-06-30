@@ -1,4 +1,4 @@
-Field Reports {VERSION}}
+Field Reports 1.5.7
 ========================
 
 Field Reports（以降，本ソフトウェアと表記します）は，マルチプラットフォーム／
@@ -19,7 +19,7 @@ LGPLについては同梱の「LGPL原文(license_lgpl.txt)」を参照してく
 本ソフトウェアの特徴・仕様・動作環境等につきましては，下記ページをご参照ください。
 
 製品情報
-    http://www.field-works.co.jp/製品情報/
+    https://www.field-works.co.jp/製品情報/
 
 利用方法
 --------
@@ -33,7 +33,7 @@ LGPLについては同梱の「LGPL原文(license_lgpl.txt)」を参照してく
 本ソフトウェアのサポートに関する情報は，下記ページを参照してください。
 
 サポート情報
-    http://support.field-works.co.jp/
+    https://support.field-works.co.jp/
 
 お問い合わせ先
 --------------
@@ -41,7 +41,7 @@ LGPLについては同梱の「LGPL原文(license_lgpl.txt)」を参照してく
 本ソフトウェアに関するお問い合せは，下記までご連絡ください。
 
 お問い合わせフォーム
-    http://www.field-works.co.jp/お問い合わせ/
+    https://www.field-works.co.jp/お問い合わせ/
 
 E-Mail
     support@field-works.co.jp

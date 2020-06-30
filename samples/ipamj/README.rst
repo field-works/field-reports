@@ -24,7 +24,7 @@ ipamj.json
 IPAのサイトよりIPAmj明朝フォントをダウンロードして，カレントディレクトリに置い
 てください。
 
-    http://ossipedia.ipa.go.jp/ipamjfont/download.html
+    https://mojikiban.ipa.go.jp
 
 コマンドライン::
 

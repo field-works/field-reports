@@ -15,13 +15,13 @@ tate.json
 ます。以下サイトより書くフォントをダウンロードして，カレントディレクトリに置い
 てください。
 
-衡山毛筆フォント行書::
+衡山毛筆フォント草書::
 
-    http://opentype.jp/kouzangyousho.htm
+    https://opentype.jp/kouzansousho.htm
 
 たぬき油性マジックフォント::
 
-    http://tanukifont.sblo.jp/article/41432838.html
+    https://tanukifont.com/tanuki-permanent-marker/
 
 もしくは，お手持ちの適当な日本語フォントを用意して，レンダリング・パラメータの
 フォントリソース定義を修正してください。
