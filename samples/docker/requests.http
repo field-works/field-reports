@@ -1,0 +1,135 @@
+// Visual Studio CodeのHTTP Client機能拡張で利用できるリクエストサンプルです。
+
+GET http://localhost:50080/version
+
+###
+
+POST http://localhost:50080/render
+Content-Type: application/json
+
+{
+    "template": {"paper": "A4"},
+    "context": {
+        "hello_1": {
+            "new": "Tx",
+            "value": "Hello, World!",
+            "rect": [100, 700, 400, 750],
+            "font": "/Times-Roman"
+        },
+        "hello_2": {
+            "new": "Tx",
+            "value": "Hello, World!",
+            "rect": [100, 600, 400, 650],
+            "font": "/Helvetica-Oblique"
+        },
+        "hello_3": {
+            "new": "Tx",
+            "value": "Hello, World!",
+            "rect": [100, 500, 400, 550],
+            "font": "/Courier-Bold"
+        },
+        "hello_4": {
+            "new": "Tx",
+            "value": "ABCDEFGHIJKLMN",
+            "rect": [100, 400, 400, 450],
+            "font": "/ZapfDingbats"
+        },
+        "hello_5": {
+            "new": "Tx",
+            "value": "こんにちは世界",
+            "rect": [100, 300, 400, 350],
+            "font": "/KozGo-Medium"
+        }
+    }
+}
+
+###
+
+POST http://localhost:50080/render
+Content-Type: application/json
+
+{
+    "template": "./templates/mitumori.pdf",
+    "resources": {
+        "font": {
+            "SourceHanSerif-Regular": {
+                "src": "./fonts/SourceHanSerif-Regular.otf",
+                "embed": true,
+                "subset": true
+            }
+        }
+    },
+    "context": {
+        "date": "平成23年1月22日",
+        "number": "10R0001",
+        "to": "△△△惣菜株式会社",
+        "title": "肉じゃがの材料",
+        "delivery_date": "平成23年1月22日",
+        "delivery_place": "貴社指定場所",
+        "payment_terms": "銀行振込",
+        "expiration_date": "発行から３ヶ月以内",
+        "stamp1": {
+            "icon": "./images/stamp.png"
+        },
+        "table": [
+            [
+                "1",
+                "N001",
+                "牛肉（切り落とし）",
+                "200g",
+                "250円",
+                "500円"
+            ],
+            [
+                "2",
+                "Y001",
+                "じゃがいも（乱切り）",
+                "3個",
+                "30円",
+                "90円"
+            ],
+            [
+                "3",
+                "Y002",
+                "にんじん（乱切り）",
+                "1本",
+                "40円",
+                "40円"
+            ],
+            [
+                "4",
+                "Y003",
+                "たまねぎ（くし切り）",
+                "1個",
+                "50円",
+                "50円"
+            ],
+            [
+                "5",
+                "Y004",
+                "しらたき",
+                "1袋",
+                "80円",
+                "80円"
+            ],
+            [
+                "6",
+                "Y005",
+                "いんげん",
+                "1袋",
+                "40円",
+                "40円"
+            ]
+        ],
+        "sub_total": "800円",
+        "tax": "40円",
+        "total": "840円"
+    },
+    "style": [
+        {
+            "*": {
+                "font": "SourceHanSerif-Regular"
+            }
+        }
+    ]
+}
