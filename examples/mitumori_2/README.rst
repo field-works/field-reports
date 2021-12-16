@@ -29,9 +29,6 @@ mitumori.py
 mitumori.rb
     Rubyプログラム
 
-mitumori.pl
-    Perlプログラム
-
 mitumori.php
     PHPプログラム
 
