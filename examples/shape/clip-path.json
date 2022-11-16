@@ -1,0 +1,24 @@
+{
+    "template": { "paper": "A4" },
+    "context": {
+        "title": {
+            "new": "Tx",
+            "font": "/KozGo-Medium",
+            "font-size": 12,
+            "rect": ["20mm", "280mm", "190mm", "295mm"],
+            "value": "クリッピング"
+        },
+        "s1": {
+            "new": "Btn",
+            "rect": [100, 450, 400, 750],
+            "clip-path": "M 50,150 A 100,100 0 1,0 250,150 A 100,100 0 1,0 50,150",
+            "icon": "./lenna.jpeg"
+        },
+        "s2": {
+            "new": "Btn",
+            "rect": [100, 100, 400, 400],
+            "clip-path": "M 50,50 50,250 250,250 250,150",
+            "icon": "./lenna.jpeg"
+        }
+    }
+}

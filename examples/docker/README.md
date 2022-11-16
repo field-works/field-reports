@@ -8,13 +8,11 @@ Field Reports 公式 Docker イメージの動作確認を行うためのリク�
 
 ## ファイルの内容
 
-- requests.http
-
-  - Visual Studio Code の HTTP Client 機能拡張用のスクリプトです。
-
-- `hello.sh`, `mitumori.sh`
-  - リクエストを発行して結果をファイルに保存するシェルスクリプトです。  
-    実行には，curl コマンドがひつようです。
+- requests.http  
+  Visual Studio Code の HTTP Client 機能拡張用のスクリプトです。
+- `hello.sh`, `mitumori.sh`  
+  リクエストを発行して結果をファイルに保存するシェルスクリプトです。  
+  実行には，curl コマンドが必要です。
 
 ## 利用方法
 

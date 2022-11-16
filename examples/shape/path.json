@@ -1,0 +1,44 @@
+{
+    "template": { "paper": "A4" },
+    "context": {
+        "title": {
+            "new": "Tx",
+            "font": "/KozGo-Medium",
+            "font-size": 12,
+            "rect": ["20mm", "280mm", "190mm", "295mm"],
+            "value": "図形要素（パス）"
+        },
+        // 直線
+        "s1": {
+            "new": "Fig",
+            "rect": ["20mm", "200mm", "100mm", "280mm"],
+            "view-box": [0, 0, 120, 120],
+            "border-width": 1,
+            "shape": "<g style='stroke:black; fill:none;'><path d='M 10 10 L 100 10'/><path d='M 10,20 L 100,20 L 100,50'/><path d='M40 60 L 10,60 L 40 42.68 M60,60 L 90 60 L 60,42.68'/></g>"
+        },
+        // 直線+closepath
+        "s2": {
+            "new": "Fig",
+            "rect": ["110mm", "200mm", "190mm", "280mm"],
+            "view-box": [0, 0, 120, 120],
+            "border-width": 1,
+            "shape": "<g style='stroke:black; fill:none;'><path d='M 10,10 L 40,10 L 40,30 L 10,30 L10,10'/><path d='M 60 10 L 90 10 L 90 30 L 60 30 Z'/><path d='M 40 60 L 10 60 L 40 42.68 Z M 60 60 L 90 60 L 60 42.68 Z'/></g>"
+        },
+        // ベジエ曲線
+        "s3": {
+            "new": "Fig",
+            "rect": ["20mm", "110mm", "100mm", "190mm"],
+            "view-box": [0, 0, 300, 300],
+            "border-width": 1,
+            "shape": "<path d='M50,50  Q70,200 150,100  T270,70' style='fill:none; stroke:#CF3721; stroke-width:3'/><path d='M50,50  C120,220 240,90 150,80  S170,200 270,70' style='fill:none; stroke:#31A9B8; stroke-width:3' />"
+        },
+        // 円弧
+        "s4": {
+            "new": "Fig",
+            "rect": ["110mm", "110mm", "190mm", "190mm"],
+            "view-box": [0, 0, 150, 150],
+            "border-width": 1,
+            "shape": "<path id='123' d='M 20,50 a 20,40 0 1,1 0,40' style='fill:none; stroke:blue; stroke-width:2;' />"
+        }
+    }
+}

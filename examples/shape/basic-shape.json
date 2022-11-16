@@ -1,0 +1,60 @@
+{
+    "template": { "paper": "A4" },
+    "context": {
+        "title": {
+            "new": "Tx",
+            "font": "/KozGo-Medium",
+            "font-size": 12,
+            "rect": ["20mm", "280mm", "190mm", "295mm"],
+            "value": "図形要素（基本図形）"
+        },
+        // 直線
+        "s1": {
+            "new": "Btn",
+            "rect": ["20mm", "200mm", "100mm", "280mm"],
+            "view-box": [0, 0, 100, 100],
+            "border-width": 1,
+            "shape": "<line x1='5' y1='5' x2='90' y2='90' style='stroke:fuchsia; stroke-width:4;'/><line x1='5' y1='10' x2='5' y2='90' style='stroke:red; stroke-width:2;'/>"
+        },
+        // 矩形
+        "s2": {
+            "new": "Btn",
+            "rect": ["110mm", "200mm", "190mm", "280mm"],
+            "view-box": [0, 0, 120, 120],
+            "border-width": 1,
+            "shape": "<rect x='10' y='10' width='30' height='50'/><rect x='50' y='10' width='20' height='40' style='fill:none; stroke:black;'/><rect x='10' y='70' width='25' height='30' style='fill:#0000ff; stroke:red; stroke-width:7;'/><rect x='50' y='60' width='30' height='45' rx='2' ry='2' style='stroke:black; fill:yellow;'/>"
+        },
+        // 円と楕円
+        "s3": {
+            "new": "Btn",
+            "rect": ["20mm", "110mm", "100mm", "190mm"],
+            "view-box": [0, 0, 120, 120],
+            "border-width": 1,
+            "shape": "<circle cx='30' cy='30' r='20' style='stroke:black; fill:none;'/><circle cx='80' cy='30' r='20' style='stroke-width:5; stroke:black; fill:none;'/><ellipse cx='30' cy='80' rx='10' ry='20' style='stroke:black; fill:none;'/><ellipse cx='80' cy='80' rx='20' ry='10' style='stroke:black; fill:none;'/>"
+        },
+        // 多角形
+        "s4": {
+            "new": "Btn",
+            "rect": ["110mm", "110mm", "190mm", "190mm"],
+            "view-box": [0, 0, 100, 100],
+            "border-width": 1,
+            "shape": "<polygon points='15,10 55,10 45,20 5,20' style='fill:red; stroke:black;'/><polygon points='35,37.5 37.9,46.1 46.9,46.1 39.7,51.5 42.3,60.1 35,55 27.7,60.1 30.3,51.5 23.1,46.1 32.1,46.1' style='fill:#ccffcc; stroke:green;'/><polygon points='60 60 65 72 80 60 90 90 72 80 72 85 50 95' style='fill:yellow; stroke:black;'/>"
+        },
+        // 多角形（交差あり）
+        "s5": {
+            "new": "Btn",
+            "rect": ["20mm", "20mm", "100mm", "100mm"],
+            "view-box": [0, 0, 120, 120],
+            "border-width": 1,
+            "shape": "<polygon points='48,16 16,96 96,48 0,48 80,96' style='fill:yellow; stroke:black;'/>"
+        },
+        // 折れ線
+        "s6": {
+            "new": "Btn",
+            "rect": ["110mm", "20mm", "190mm", "100mm"],
+            "view-box": [0, 0, 150, 150],
+            "border-width": 1,
+            "shape": "<polyline style='stroke:black; stroke-width:3; fill:none;' points='5 20 20 20 25 10 35 30 45 10 55 30 65 10 75 30 80 20 95 20'/>"
+        }
+    }
+}

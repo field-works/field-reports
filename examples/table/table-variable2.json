@@ -1,0 +1,78 @@
+{
+    "template": [
+        {"*": {"src": "./table.pdf"}}
+    ],
+
+    // context指定属性
+    "context": [
+        {
+            "year": "２２",
+            "month": "５",
+            "day": "５",
+            "company": "${COMPANY}",
+            "name": "${USERNAME}",
+            "subject": "長篠の戦い支援費用",
+            "total": 10000000,
+            "table": {
+                "new": "Tbl",
+                "rect": [55, 183, 539, 461],
+                "font": "/KozMin-Regular",
+                "font-size": 9,
+                "column-widths": ["16%", "30%", "14%", "20%", "20%"],
+                "border": {"width": 2},
+                "border-rows": {"width": 0.5, "color": "Silver"},
+                "border-columns": {"width": 0.5, "color": "Silver"},
+                "border-header": {"width": 1},
+                "border-footer": {"width": 1},
+                "cell-padding": 6,
+                "header": [
+                    ["商品コード", "品名", "数量", "単価", "金額"]
+                ],
+                "body": [
+                    ["1001", "火縄銃", "1", 10000, 100000],
+                    ["1002", "火縄銃", "2", 10000, 200000],
+                    ["1003", "火縄銃", "3", 10000, 300000],
+                    ["1004", "火縄銃", "4", 10000, 400000],
+                    ["1005", "火縄銃", "5", 10000, 500000],
+                    ["1006", "火縄銃", "1", 10000, 100000],
+                    ["1007", "火縄銃", "2", 10000, 200000],
+                    ["1008", "火縄銃", "3", 10000, 300000],
+                    ["1009", "火縄銃", "4", 10000, 400000],
+                    ["1010", "火縄銃", "5", 10000, 500000],
+                    ["1011", "火縄銃", "1", 10000, 100000],
+                    ["1012", "火縄銃", "2", 10000, 200000],
+                    ["1013", "火縄銃", "3", 10000, 300000],
+                    ["1014", "火縄銃", "4", 10000, 400000],
+                    ["1015", "火縄銃", "5", 10000, 500000],
+                    ["", "", "", "小計", 999999],
+                    ["", "", "", "消費税等", 999999],
+                    ["", "", "", "合計", 999999]
+                ]
+            }
+        }
+    ],
+
+    // style指定属性
+    "style": [
+        {"*": {"permanent": true}},
+        {"*.total": {"format": "#,#円"},
+         "*.page": {"format": "- 0 -"}},
+        {"*.table.body.*.2": {"format": "#丁", "text-align": "Right"},
+         "*.table.body.*.[3:5]": {"format": "#,#円", "text-align": "Right"},
+         "*.table.header.*.[1:]": {"letter-spacing": 8},
+         "*.table.header": {"text-align": "Center", "background-color": [204,230,230]},
+         "*.table.body.[1::2]": {"background-color": [242,255,255]}},
+        {"*.table.$body.[-3]": {"border-top": {"width": 1}},
+         "*.table.$body.[-3:]": {"background-color": []},
+         "*.table.$body.[-3:].3": {"text-align": "Justify"},
+         "*.table.$body.[-3:].4": {"format": "#,#円", "text-align": "Right"}},
+        {"*.date": {"datetime": "GGEE年MM月DD日 hh時mm分"}},
+        {"0.stamp": {"icon": "./stamp.png"}}
+    ],
+
+    // ユーザ定義変数
+    "environ": {
+        "COMPANY": "織田商事",
+        "USERNAME": "織田信長"
+    }
+}

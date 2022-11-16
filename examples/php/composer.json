@@ -1,0 +1,11 @@
+{
+    "require": {
+        "field-reports/php-bridge": "2.0.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/field-works/php-bridge.git"
+        }
+    ]
+}
